@@ -99,17 +99,17 @@ python question2.py
 
 4. Deployed PostgreSQL with Docker
 
-Used Docker CLI to run PostgreSQL container (mypg)
-
-Set up default credentials and database:
-user=postgres, password=pass123, db=sheetsdb
+  Used Docker CLI to run PostgreSQL container (mypg)
+  
+  Set up default credentials and database:
+  user=postgres, password=pass123, db=sheetsdb
 
 5. Stored Each Sheet as a Table in PostgreSQL
 
 Used pandas.DataFrame and SQLAlchemy to:
 
-    Auto-create tables based on headers
+  Auto-create tables based on headers
 
-    Insert normalized rows
+  Insert normalized rows
 
-    Convert sheet names to safe table names (e.g., Fairness Tools → fairness_tools)
+  Convert sheet names to safe table names (e.g., Fairness Tools → fairness_tools)
